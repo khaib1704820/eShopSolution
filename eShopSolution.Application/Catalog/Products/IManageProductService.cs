@@ -17,6 +17,6 @@ namespace eShopSolution.Application.Catalog.Products
 
         Task<List<ProductViewModel>> GetAll();
 
-        Task<PagedViewModel<ProductViewModel>> GetAllPaging(string keywork, int pageIndex, int pageSize);
+        Task<PagedResult<ProductViewModel>> GetAllPaging(string keywork, int pageIndex, int pageSize);
     }
 }

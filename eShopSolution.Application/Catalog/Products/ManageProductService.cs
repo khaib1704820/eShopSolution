@@ -36,7 +36,7 @@ namespace eShopSolution.Application.Catalog.Products
             throw new NotImplementedException();
         }
 
-        public Task<PagedViewModel<ProductViewModel>> GetAllPaging(string keywork, int pageIndex, int pageSize)
+        public Task<PagedResult<ProductViewModel>> GetAllPaging(string keywork, int pageIndex, int pageSize)
         {
             throw new NotImplementedException();
         }
